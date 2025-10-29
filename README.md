@@ -32,32 +32,38 @@ A beautiful, real-time weather dashboard built with React, Vite, and the OpenWea
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/netherworld-fix/weather-dashboard.git
 cd weather-dashboard
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 3. Create `.env` file
+
 ```bash
 cp .env.example .env
 ```
 
 4. Add your OpenWeather API key to `.env`
+
 ```
 VITE_WEATHER_API_KEY=your_actual_api_key_here
 ```
 
 5. Start development server
+
 ```bash
 npm run dev
 ```
 
 ## 📁 Project Structure
+
 ```
 src/
 ├── components/
@@ -74,6 +80,7 @@ src/
 ## 🌐 API Reference
 
 This app uses the [OpenWeather API](https://openweathermap.org/api):
+
 - Current Weather Data API
 - 5 Day / 3 Hour Forecast API
 
@@ -97,11 +104,12 @@ This app uses the [OpenWeather API](https://openweathermap.org/api):
 
 ## 🌐 Live Demo
 
-[View Live Demo](your-vercel-url-here)
+[View Live Demo](https://weather-dashboard-b4ckcobfb-desmond-delalis-projects.vercel.app)
 
 ## 👨‍💻 Author
 
 **Desmond Delali**
+
 - GitHub: [@netherworld-fix](https://github.com/netherworld-fix)
 - LinkedIn: [Your LinkedIn](your-linkedin-url)
 
